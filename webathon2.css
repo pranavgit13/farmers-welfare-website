@@ -1,0 +1,159 @@
+nav{
+	display:flex;
+	margin: 5px;
+	background-color: rgba(172, 105, 239, 0.753);
+	margin-top: 5px;
+	border-radius: 5px;
+	
+}
+a{
+	padding:10px;
+	text-decoration: none;
+	margin-top: 15px;
+	color: black;
+}
+img{
+	border-radius: 50%;
+}
+.profile{
+	display: flex;
+	flex-direction: row;
+	margin-left: 800px;
+	padding: 5px;
+    justify-content: flex-end;
+}
+body{
+	background-image: url(./webathon7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.my {
+	display: flex;
+	flex-direction: row;
+	margin: 3px;
+	padding: 2px;
+	background-color: rgba(135, 207, 235, 0.415);
+	
+	border-radius: 10px;
+	
+}
+
+
+.dropdown {
+	display: inline-block;
+	position: relative;
+	margin-top:25px;
+}
+
+h4 {
+	margin-bottom:25px;
+}
+.dropdown {
+	display: inline;
+	position: relative;
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+	padding: 15px 30px;
+	font-size: 18px;
+
+}
+
+button:hover {
+	background-color: #ddd;
+}
+
+.dropdown-options {
+	display: none;
+	position: absolute;
+	overflow: visible;
+	background-color: #67b84e;
+	border-radius: 5px;
+	
+}
+
+.dropdown:hover .dropdown-options {
+	display: block;
+}
+
+.dropdown-options a {
+	display:inline-flex;
+	color: #000000;
+	padding: 5px;
+	text-decoration: none;
+	
+}
+
+.dropdown-options a:hover {
+	color: #0a0a23;
+	background-color: #ddd;
+	border-radius: 5px;
+}
+
+
+
+table ,th,td{
+	border: 2px solid gray;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 3px;
+	background-color: rgba(245, 245, 220, 0.34);
+	
+}
+ 
+ table{
+	padding: 5px;
+	margin: 10px;
+	background-color: rgba(245, 245, 220, 0.34);
+	border-radius: 15px;
+ }
+ table:hover{
+	border: 5px solid rgba(172, 105, 239, 0.753);
+ }
+.row{
+display: flex;
+flex-direction: column;
+}
+
+
+footer{
+	background-color: rgba(0, 100, 0, 0.633);
+	text-align: center;
+	border-radius: 15px;
+}
+footer:hover{
+	color: #71d3ae;
+	border: 3px solid royalblue;
+}
+.col-5{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+#matter{
+	background-color: rgba(47, 144, 255, 0.44);
+	margin-left:500px;
+	margin-top:-100px;
+	margin-right:250px;
+	border-radius: 5px;
+	padding-right: 20px;
+	padding-left: 50px;
+	padding-top:50px;
+	padding-bottom: 50px;
+}
+li{
+	list-style-type: none;
+}
+.sucesfar{
+	background-color: rgba(229, 229, 88, 0.494);
+	display:inline-block;
+	text-align: center;
+	margin-top: -200px;
+	margin-left: -350px;
+	float: right;
+	color:white;
+}
