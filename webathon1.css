@@ -1,0 +1,38 @@
+body{
+	
+    background-image: url(
+	./webathon1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.con{
+	margin: 10px;
+	border: 2px ;
+	border-radius: 5px;
+	border-color: greenyellow;
+	padding: 10px;
+	color: greenyellow;
+}
+.con1{
+	margin: 10px;
+}
+.button:hover{
+	margin: 10px;
+	background-color: rgb(157, 209, 230);
+	border-radius: 5px;
+	padding: 7px;
+	color: rgb(5, 44, 89);
+}
+.body1{
+	text-align: center;
+	padding: 10px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: darkolivegreen;
+	margin: 100px 400px 200px;
+	border-radius: 10px;
+}
+h3{
+	display: block;
+	margin: auto;
+}
